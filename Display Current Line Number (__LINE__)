@@ -1,0 +1,12 @@
+#include <stdio.h>
+
+int main()
+{
+    printf("Current Line: %d\n", __LINE__);
+
+    return 0;
+}
+Sample Output
+Current Line: 5
+
+(The line number depends on where the printf() statement is placed.)
