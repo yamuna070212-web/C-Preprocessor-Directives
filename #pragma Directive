@@ -1,0 +1,17 @@
+#include <stdio.h>
+
+#pragma message("Compiling the program")
+
+int main()
+{
+    printf("Hello World");
+
+    return 0;
+}
+Sample Output
+Compiler Message:
+Compiling the program
+
+Hello World
+
+Note: #pragma behavior depends on the compiler, so the output may vary.
