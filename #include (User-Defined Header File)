@@ -1,0 +1,18 @@
+Step 1: Create a header file myheader.h
+
+#define MESSAGE "Welcome to C Programming!"
+
+Step 2: Main Program
+
+#include <stdio.h>
+#include "myheader.h"
+
+int main()
+{
+    printf("%s", MESSAGE);
+
+    return 0;
+}
+
+Sample Output
+Welcome to C Programming!
