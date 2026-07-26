@@ -1,0 +1,24 @@
+#include <stdio.h>
+
+#define LEVEL 2
+
+int main()
+{
+#if LEVEL == 1
+
+    printf("Level 1");
+
+#elif LEVEL == 2
+
+    printf("Level 2");
+
+#else
+
+    printf("Unknown Level");
+
+#endif
+
+    return 0;
+}
+Sample Output
+Level 2
