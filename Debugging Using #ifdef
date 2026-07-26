@@ -1,0 +1,17 @@
+#include <stdio.h>
+
+#define DEBUG
+
+int main()
+{
+#ifdef DEBUG
+    printf("Debug Information\n");
+#endif
+
+    printf("Program Executed");
+
+    return 0;
+}
+Sample Output
+Debug Information
+Program Executed
