@@ -1,0 +1,20 @@
+#include <stdio.h>
+
+#define NUMBER 15
+
+int main()
+{
+#if NUMBER > 20
+    printf("Greater than 20\n");
+
+#elif NUMBER == 20
+    printf("Equal to 20\n");
+
+#else
+    printf("Less than 20\n");
+#endif
+
+    return 0;
+}
+Sample Output
+Less than 20
