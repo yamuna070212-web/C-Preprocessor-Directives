@@ -1,0 +1,15 @@
+#include <stdio.h>
+
+#define PI 3.14159
+#define AREA(r) (PI * (r) * (r))
+
+int main()
+{
+    float r = 7;
+
+    printf("Area = %.2f", AREA(r));
+
+    return 0;
+}
+Sample Output
+Area = 153.94
