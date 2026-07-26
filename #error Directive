@@ -1,0 +1,19 @@
+#include <stdio.h>
+
+#define VERSION 1
+
+#if VERSION < 2
+#error "Version must be 2 or higher"
+#endif
+
+int main()
+{
+    printf("Program Running");
+
+    return 0;
+}
+Sample Output
+Compilation Error:
+Version must be 2 or higher
+
+These topics are especially useful for larger C projects and help you understand how real-world C programs are organized.
