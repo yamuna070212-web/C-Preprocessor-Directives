@@ -1,0 +1,14 @@
+#include <stdio.h>
+
+#ifndef TEST
+#define TEST
+
+int main()
+{
+    printf("TEST was not defined\n");
+
+    return 0;
+}
+#endif
+Sample Output
+TEST was not defined
