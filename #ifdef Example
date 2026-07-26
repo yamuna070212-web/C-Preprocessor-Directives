@@ -1,0 +1,14 @@
+#include <stdio.h>
+
+#define TEST
+
+int main()
+{
+#ifdef TEST
+    printf("TEST is Defined\n");
+#endif
+
+    return 0;
+}
+Sample Output
+TEST is Defined
