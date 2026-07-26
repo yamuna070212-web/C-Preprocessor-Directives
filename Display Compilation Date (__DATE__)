@@ -1,0 +1,12 @@
+#include <stdio.h>
+
+int main()
+{
+    printf("Compilation Date: %s", __DATE__);
+
+    return 0;
+}
+Sample Output
+Compilation Date: Jul 26 2026
+
+(The date depends on when you compile the program.)
