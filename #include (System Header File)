@@ -1,0 +1,10 @@
+#include <stdio.h>
+
+int main()
+{
+    printf("Using Standard Header File");
+
+    return 0;
+}
+Sample Output
+Using Standard Header File
