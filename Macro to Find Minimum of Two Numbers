@@ -1,0 +1,18 @@
+#include <stdio.h>
+
+#define MIN(a, b) ((a) < (b) ? (a) : (b))
+
+int main()
+{
+    int a, b;
+
+    printf("Enter two numbers: ");
+    scanf("%d %d", &a, &b);
+
+    printf("Minimum = %d\n", MIN(a, b));
+
+    return 0;
+}
+Sample Output
+Enter two numbers: 25 40
+Minimum = 25
