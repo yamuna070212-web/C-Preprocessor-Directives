@@ -1,0 +1,18 @@
+#include <stdio.h>
+
+#define MAX(a, b) ((a) > (b) ? (a) : (b))
+
+int main()
+{
+    int a, b;
+
+    printf("Enter two numbers: ");
+    scanf("%d %d", &a, &b);
+
+    printf("Maximum = %d\n", MAX(a, b));
+
+    return 0;
+}
+Sample Output
+Enter two numbers: 25 40
+Maximum = 40
