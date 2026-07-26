@@ -1,0 +1,14 @@
+#include <stdio.h>
+
+#define CONCAT(a, b) a##b
+
+int main()
+{
+    int num1 = 100;
+
+    printf("%d", CONCAT(num,1));
+
+    return 0;
+}
+Sample Output
+100
