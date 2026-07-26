@@ -1,0 +1,29 @@
+Step 1: myheader.h
+#ifndef MYHEADER_H
+#define MYHEADER_H
+
+void display();
+
+#endif
+Step 2: myheader.c
+#include <stdio.h>
+#include "myheader.h"
+
+void display()
+{
+    printf("Header Guard Example\n");
+}
+Step 3: main.c
+#include "myheader.h"
+
+int main()
+{
+    display();
+
+    return 0;
+}
+Sample Output
+Header Guard Example
+Explanation
+
+#ifndef, #define, and #endif prevent a header file from being included multiple times.
