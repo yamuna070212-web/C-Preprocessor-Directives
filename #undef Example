@@ -1,0 +1,16 @@
+#include <stdio.h>
+
+#define VALUE 100
+
+#undef VALUE
+
+#define VALUE 200
+
+int main()
+{
+    printf("VALUE = %d\n", VALUE);
+
+    return 0;
+}
+Sample Output
+VALUE = 200
