@@ -1,0 +1,26 @@
+Step 1: mathfunc.h
+#ifndef MATHFUNC_H
+#define MATHFUNC_H
+
+int square(int);
+
+#endif
+Step 2: mathfunc.c
+#include "mathfunc.h"
+
+int square(int x)
+{
+    return x * x;
+}
+Step 3: main.c
+#include <stdio.h>
+#include "mathfunc.h"
+
+int main()
+{
+    printf("Square = %d", square(8));
+
+    return 0;
+}
+Sample Output
+Square = 64
