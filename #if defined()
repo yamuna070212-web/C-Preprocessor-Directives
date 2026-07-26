@@ -1,0 +1,20 @@
+#include <stdio.h>
+
+#define VALUE
+
+int main()
+{
+#if defined(VALUE)
+
+    printf("VALUE is Defined");
+
+#else
+
+    printf("VALUE is Not Defined");
+
+#endif
+
+    return 0;
+}
+Sample Output
+VALUE is Defined
