@@ -1,0 +1,15 @@
+#include <stdio.h>
+
+#define DISPLAY() \
+printf("Hello\n"); \
+printf("Welcome to C Programming\n");
+
+int main()
+{
+    DISPLAY();
+
+    return 0;
+}
+Sample Output
+Hello
+Welcome to C Programming
