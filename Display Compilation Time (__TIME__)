@@ -1,0 +1,12 @@
+#include <stdio.h>
+
+int main()
+{
+    printf("Compilation Time: %s", __TIME__);
+
+    return 0;
+}
+Sample Output
+Compilation Time: 18:45:30
+
+(The time depends on when you compile the program.)
