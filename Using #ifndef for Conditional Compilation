@@ -1,0 +1,15 @@
+#include <stdio.h>
+
+#ifndef DEBUG
+#define DEBUG
+
+int main()
+{
+    printf("Debug Mode Enabled");
+
+    return 0;
+}
+
+#endif
+Sample Output
+Debug Mode Enabled
